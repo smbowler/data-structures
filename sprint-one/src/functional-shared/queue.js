@@ -7,6 +7,8 @@ var Queue = function(){
   someQueue.back = 0;
   someQueue.storage = {};
   someQueue.size = queueMethods.size;
+  someQueue.enqueue = queueMethods.enqueue;
+  someQueue.dequeue = queueMethods.dequeue;
 
   return someQueue;
 };
@@ -15,9 +17,18 @@ var queueMethods = {
   
   enqueue: function(value){
     this.back++;
+    this.storage[this.back] = value;
   },
 
-  //dequeue: function(){},
+  dequeue: function(){
+    //Must invoke size function to access value;
+    if (this.size() > 0){
+      this.front++;
+      var result = this.storage[this.front];
+      delete this.storage[this.front];
+    }
+    return result;
+  },
 
   size: function(){
     return this.back - this.front;
