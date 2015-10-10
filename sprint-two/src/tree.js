@@ -57,7 +57,7 @@ treeMethods.contains = function(target){
     */    
   };
 
-  console.log(this);
+  //console.log(this);
   recurse(this);
 
   return result;

@@ -1,0 +1,69 @@
+recursion
+
+  getElementsByClassName
+
+  stringifyJSON
+
+underbar
+
+  identity
+
+  first
+
+  last
+
+  each
+
+  indexOf
+
+  filter
+
+  reject
+
+  uniq
+
+  map
+
+  pluck
+
+  reduce
+
+  contains
+
+  every
+
+  some
+
+  extend
+
+  defaults
+
+  once 
+
+  memoize
+
+  delay
+
+data structures
+
+  stack
+
+    functional, functional-shared, prototypal, pseudoclassical
+
+  queue
+
+    functional, functional-shared, prototypal, pseudoclassical
+
+  linkedList
+  
+  tree
+
+  graph
+
+  set
+
+  hashTable
+
+  binarySearchTree
+
+    
